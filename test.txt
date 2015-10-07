@@ -1,0 +1,9 @@
+Git is a distributed version control system.
+Git is free software.
+test
+
+git remote add origin git@github.com:cuittzq/SmartHome.git
+
+On branch master Changes not staged for commit:   
+(use "git add/rm <file>..." to update what will be committed)   
+(use "git checkout -- <file>..." to discard changes in working directory) 
