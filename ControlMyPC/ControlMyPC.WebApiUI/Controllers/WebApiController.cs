@@ -15,9 +15,10 @@ namespace ControlMyPC.WebApiUI.Controllers
         /// <param name="data">传入参数</param>
         /// <returns>返回结果</returns>
         [System.Web.Http.AcceptVerbs("GET", "POST")]
-        public string OrderHandler([FromBody]object dataObject)
+        public string CommandHandler([FromBody]object dataObject)
         {
             string result = string.Empty;
+
             return result;
         }
     }
