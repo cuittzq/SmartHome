@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyComputer", "MyComputer\My
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{5750CB5E-6DDD-4A0C-958C-8152F5FFED4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlMyPC.WebApiUI", "ControlMyPC.WebApiUI\ControlMyPC.WebApiUI.csproj", "{53FEFF79-5951-41FD-A464-5EBA81527E1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{5750CB5E-6DDD-4A0C-958C-8152F5FFED4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5750CB5E-6DDD-4A0C-958C-8152F5FFED4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5750CB5E-6DDD-4A0C-958C-8152F5FFED4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53FEFF79-5951-41FD-A464-5EBA81527E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53FEFF79-5951-41FD-A464-5EBA81527E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53FEFF79-5951-41FD-A464-5EBA81527E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53FEFF79-5951-41FD-A464-5EBA81527E1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
