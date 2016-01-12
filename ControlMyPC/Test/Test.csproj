@@ -48,9 +48,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MyComputer\MyComputer.csproj">
+    <ProjectReference Include="..\ControlMyPC.Buiness\ControlMyPC.Buiness.csproj">
       <Project>{6839ddd5-b200-425e-8423-b374b51cfb05}</Project>
-      <Name>MyComputer</Name>
+      <Name>ControlMyPC.Buiness</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

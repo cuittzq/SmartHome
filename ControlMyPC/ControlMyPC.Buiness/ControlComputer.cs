@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyComputer
+namespace ControlMyPC.Buiness
 {
     public class ControlComputer
     {

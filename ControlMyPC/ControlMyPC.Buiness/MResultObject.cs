@@ -13,7 +13,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyComputer
+namespace ControlMyPC.Buiness
 {
     public class MResultObject
     {

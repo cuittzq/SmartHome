@@ -7,8 +7,8 @@
     <ProjectGuid>{6839DDD5-B200-425E-8423-B374B51CFB05}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MyComputer</RootNamespace>
-    <AssemblyName>MyComputer</AssemblyName>
+    <RootNamespace>ControlMyPC.Buiness</RootNamespace>
+    <AssemblyName>ControlMyPC.Buiness</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -32,6 +32,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,6 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ControlComputer.cs" />
+    <Compile Include="ConvertObject.cs" />
+    <Compile Include="ExecuteCommand.cs" />
+    <Compile Include="MainProsess.cs" />
+    <Compile Include="MPublicEnums.cs" />
+    <Compile Include="MRequsetParam.cs" />
+    <Compile Include="MResultObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
